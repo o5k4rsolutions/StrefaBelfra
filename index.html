@@ -110,6 +110,7 @@ section{padding:56px 0}
 .paper{transform:none;opacity:1}.ln{stroke-dashoffset:0}
 }
 </style>
+<style>html:not(.auth-ready) [data-auth]{visibility:hidden}</style>
 </head>
 <body>
 <header>
@@ -131,7 +132,7 @@ section{padding:56px 0}
 <a href="#funkcje">Funkcje</a>
 <a href="#jak">Jak to działa</a>
 <a href="#dolacz">Dołącz</a>
-<a class="btn btn-login" href="/login">Zaloguj się</a>
+<a class="btn btn-login" href="https://login-strefabelfra.pages.dev" data-auth="login">Zaloguj się</a>
 </nav>
 </div>
 </header>
@@ -143,7 +144,7 @@ section{padding:56px 0}
 <h1>Testy i materiały gotowe <em>w kilka minut</em></h1>
 <p class="lead">Strefa Belfra to inteligentne środowisko pracy, w którym błyskawicznie przygotujesz spersonalizowane sprawdziany, kartkówki oraz angażujące materiały lekcyjne.</p>
 <div class="cta">
-<a class="btn" href="/login">Zaloguj się</a>
+<a class="btn" href="https://login-strefabelfra.pages.dev" data-auth="login">Zaloguj się</a>
 <a class="btn o" href="#funkcje">Dowiedz się więcej</a>
 </div>
 <div class="note">
@@ -237,7 +238,7 @@ section{padding:56px 0}
 <div class="band reveal">
 <h2>Gotów, by odzyskać swój wolny czas?</h2>
 <p>Dołącz do grona nauczycieli, którzy tworzą nowoczesne materiały dydaktyczne sprawniej niż kiedykolwiek.</p>
-<a class="btn" style="background:#fff;color:#14213D" href="/login">Zaloguj się do platformy</a>
+<a class="btn" style="background:#fff;color:#14213D" href="https://login-strefabelfra.pages.dev" data-auth="login">Zaloguj się do platformy</a>
 <p class="bn">Pełny dostęp po weryfikacji uprawnień nauczycielskich.</p>
 </div>
 </div>
@@ -295,5 +296,6 @@ function rotate() {
 setTimeout(() => bubble && bubble.classList.add('show'), 600);
 setInterval(rotate, 4500);
 </script>
+<script type="module" src="/auth.js"></script>
 </body>
 </html>
