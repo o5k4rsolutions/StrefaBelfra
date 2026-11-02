@@ -1,7 +1,7 @@
 // Strefa Belfra – wspólny skrypt sesji dla stron publicznych
 // 1) Wklej swoje dane z Supabase: Project Settings → API
-const SUPABASE_URL = "https://TWOJ-PROJEKT.supabase.co";
-const SUPABASE_ANON_KEY = "TWOJ_ANON_PUBLIC_KEY"; // tylko klucz anon/public, NIGDY service_role!
+const SUPABASE_URL = "https://zmnscevlotwpocpwzmjj.supabase.co";
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InptbnNjZXZsb3R3cG9jcHd6bWpqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTI5MzcwMzAsImV4cCI6MjEwODUxMzAzMH0.qB4WcrlkDb75Buk0G2E1-jkun0VLWih7h1j9NEb2IXk"; // tylko klucz anon/public, NIGDY service_role!
 
 const LOGIN_URL = "https://login-strefabelfra.pages.dev";
 const APP_URL   = "https://moja-strefabelfra.pages.dev";
